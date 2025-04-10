@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.close-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+  z-index: 150;
+}
+
+.close-icon:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  cursor: pointer;
+}
+
+/* SOS Container */
+.sos-container {
+  width: 90%;
+  max-width: 1200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+/* Heading */
+.sos-heading {
+  color: white;
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out 0.1s forwards;
+}
+
+/* SOS List */
+.sos-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* SOS Box */
+.sos-box {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out forwards;
+  animation-delay: calc(var(--order) * 0.1s);
+  transform-origin: center;
+}
+
+.sos-box:hover {
+  background: rgba(255, 255, 255, 0.3);
+  /* transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); */
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sos-box h3 {
+  margin-top: 2px;
+}
+
+/* Contact Number */
+.contact-number {
+  font-weight: bold;
+  color: yellow;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Close Icon Animation */
+@keyframes close-icon-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* .close-icon:hover {
+  animation: close-icon-animation 0.5s ease-in-out;
+} */
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .sos-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sos-box {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sos-container {
+    width: 80%;
+    padding: 10px;
+    margin-top: 20%;
+  }
+
+  .sos-heading {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .sos-box {
+    width: 70%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .sos-box h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact-number {
+    font-size: 1rem;
+  }
+
+  .close-icon {
+    font-size: 1.5rem;
+    padding: 5px 8px;
+  }
+
+}

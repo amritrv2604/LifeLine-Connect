@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | LifeLine Connect</title>
+  <link rel="stylesheet" href="contact.css" />
+  <link rel="stylesheet" href="../animations.css">
+  <link rel="icon" type="image/png" href="logo.png" />
+</head>
+
+<body>
+  <div id="contact" class="page">
+    <!-- Close Icon -->
+    <a href="/index.html" class="close-icon" title="Close">&times;</a>
+
+    <div class="card slide-in-left" style="animation-delay: 0.2s;">
+      <!-- Heading -->
+      <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for any queries or support !!</p>
+
+        <!-- form -->
+        <form class="zoom-in" id="contactForm" action="https://formsubmit.co/amritverma7890@gmail.com" method="POST"
+          aria-live="polite">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="#successMessage">
+          <input class="fade-in" style="animation-delay: 0.2s;" type="text" id="name" name="name"
+            aria-label="Your full name" placeholder="Your Name" required>
+          <input class="fade-in" style="animation-delay: 0.2s;" type="email" id="email" name="email"
+            aria-label="Your email" placeholder="Your Email" required>
+          <input class="fade-in" style="animation-delay: 0.2s;" type="text" id="location" name="location"
+            aria-label="Your location" placeholder="Your Location" required>
+          <textarea class="fade-in" style="animation-delay: 0.2s;" id="message" name="message" aria-label="Your message"
+            placeholder="Your Message" maxlength="250" required></textarea>
+          <p id="charCount">0 / 250</p>
+          <button class="fade-in" style="animation-delay: 0.4s;" type="submit">Send</button>
+        </form>
+
+        <!-- Success Message -->
+        <div id="successMessage" class="hidden">
+          ✅ **Thank you, <span id="userName"></span>!** Your message has been sent successfully.
+          We’ll get back to you at **<span id="userEmail"></span>** soon.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>&copy; 2025 LifeLine Connect. All rights reserved.</footer>
+
+  <script src="contact.js"></script>
+</body>
+
+</html>

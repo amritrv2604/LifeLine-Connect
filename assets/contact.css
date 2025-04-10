@@ -1,0 +1,275 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.page {
+  flex: 1;
+  display: flex;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.close-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+  z-index: 150;
+}
+
+.close-icon:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  cursor: pointer;
+}
+
+.contact-container {
+  max-width: 400px;
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+input,
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #000;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.8);
+}
+
+button {
+  background: #00c6ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0072ff;
+}
+
+#charCount {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Better focus states */
+input:invalid,
+textarea:invalid {
+  border: 2px solid #ff4444 !important;
+}
+
+/* Loading state */
+button.loading {
+  position: relative;
+  color: transparent;
+}
+
+button.loading::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 50%;
+  margin: -8px 0 0 -8px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#successMessage {
+  margin-top: 15px;
+  padding: 15px;
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  font-size: 16px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Spinner Animation */
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: spin 1s ease-in-out infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Close Icon Animation */
+@keyframes close-icon-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.close-icon:hover {
+  animation: close-icon-animation 0.5s ease-in-out;
+}
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+  .contact-container {
+    width: 85%;
+    /* Better width for mobile */
+    margin-top: 25%;
+    /* Space for close icon */
+    padding: 20px 15px;
+    /* Better padding */
+    box-sizing: border-box;
+    /* Prevents overflow */
+  }
+
+  .close-icon {
+    top: 15px;
+    /* Adjusted position */
+    right: 15px;
+    font-size: 1.9rem;
+    /* Slightly smaller */
+    background: rgba(0, 0, 0, 0.5);
+    /* Better visibility */
+  }
+
+  /* Form elements */
+  input,
+  textarea {
+    width: 100% !important;
+    /* Full width */
+    box-sizing: border-box;
+    /* Includes padding in width */
+  }
+
+  button {
+    width: 50% !important;
+    /* Full width button */
+    margin-top: 10px;
+  }
+}
+
+/* Mobile Phones (480px and below) */
+@media (max-width: 480px) {
+  .contact-container {
+    /* padding: 15px; */
+    width: 90%;
+    /* max-width: 100%; */
+    margin-top: 30%;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    /* Smaller heading */
+  }
+
+  .close-icon {
+    top: 10px;
+    right: 10px;
+  }
+
+  input,
+  textarea {
+    width: calc(100% - 15px);
+  }
+
+  button {
+    width: 50%;
+  }
+
+  #successMessage {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    display: none;
+  }
+}

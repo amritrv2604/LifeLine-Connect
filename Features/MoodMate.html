@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mood Mate</title>
+  <link rel="icon" type="image/png" href="/assets/logo.png" />
+  <link rel="stylesheet" href="MoodMate.css" />
+  <link rel="stylesheet" href="../animations.css">
+</head>
+
+<body>
+  <div id="DepressionCheck" class="page">
+    <!-- Close Icon -->
+    <a href="/assets/features.html" class="close-icon" title="Close">&times;</a>
+
+    <!-- questionnaire -->
+    <div class="container" id="questionnaire-container">
+      <div id="question-container"></div>
+      <div class="btn-container">
+        <button id="prev-btn" class="btn hidden">Previous</button>
+        <button id="next-btn" class="btn" disabled>Next</button>
+      </div>
+      <button id="submit-btn" class="btn">Submit</button>
+    </div>
+
+    <div id="result-container" class="hidden">
+      <h3>Your Mood Score: <span id="finalScore"></span></h3>
+      <p id="moodDescription"></p>
+
+      <!-- Horizontal Progress Bar -->
+      <div class="progress-bar-container">
+        <div id="progress-bar"></div>
+      </div>
+    </div>
+
+    <script src="MoodMate.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,322 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Styling the navigation bar */
+header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #00d1b2;
+}
+
+/* Styling the logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: -60px;
+  perspective: 1000px;
+  /* For 3D effect */
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+}
+
+/* Styling the Branding section */
+#branding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+}
+
+#branding canvas {
+  width: 300px;
+  height: 300px;
+}
+
+#branding h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  margin: 10px;
+  z-index: 1001;
+}
+
+.hamburger div {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 2px;
+}
+
+
+/* ============= Responsive Styling for Mobile ============= */
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  .section {
+    padding: 20px 10px;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .success-stories {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .logo {
+    animation:
+      float 6s ease-in-out infinite,
+      glow 4s ease-in-out infinite alternate;
+  }
+}
+
+/* ============ Mobile Styles ============ */
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .logo img {
+    width: 120px;
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  /* Animated bars */
+  .hamburger.change .bar1 {
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+
+  .hamburger.change .bar2 {
+    opacity: 0;
+  }
+
+  .hamburger.change .bar3 {
+    transform: rotate(45deg) translate(-6px, -6px);
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 15px;
+    width: 90%;
+    margin: 14px auto;
+    transition: all 0.5s ease;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  }
+
+  nav.show {
+    display: flex;
+    animation: slideDown 0.5s ease forwards;
+  }
+
+  #navMenu a {
+    margin-bottom: 5px;
+  }
+
+  /* Smooth slide animation */
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  nav a {
+    margin: 12px 0;
+    font-size: 18px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  }
+
+
+}
+
+/* Optional: For ultra small screens */
+@media (max-width: 480px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 15px;
+    width: 90%;
+    margin: 14px auto;
+    transition: all 0.5s ease;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .logo img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #branding h1 {
+    font-size: 3.2rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    line-height: 130%;
+    letter-spacing: 5px;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  /* Animated bars */
+  .hamburger.change .bar1 {
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+
+  .hamburger.change .bar2 {
+    opacity: 0;
+  }
+
+  .hamburger.change .bar3 {
+    transform: rotate(45deg) translate(-6px, -6px);
+  }
+}
+
+/* ---------- DESKTOP ---------- */
+@media (min-width: 769px) {
+  nav {
+    display: flex !important;
+    justify-content: center;
+    position: static;
+    background: none;
+    border: none;
+    backdrop-filter: none;
+    box-shadow: none;
+  }
+
+  nav a {
+    margin: 0 15px;
+    font-size: 20px;
+  }
+}

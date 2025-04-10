@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Success Stories</title>
+  <link rel="stylesheet" href="SuccStory.css" />
+  <link rel="icon" type="image/png" href="/assets/logo.png" />
+</head>
+
+<body>
+  <!-- Close Icon -->
+  <a href="/assets/features.html" class="close-icon" title="Close">&times;</a>
+  <div class="stories-container">
+    <h2 class="title">Success Stories</h2>
+
+    <div class="story-card">
+      <p class="story-preview">
+        "I was in a dark place, struggling with severe anxiety and
+        depression... "
+      </p>
+      <span class="read-more" onclick="openPopup(0)">Read Full Story</span>
+    </div>
+
+    <div class="story-card">
+      <p class="story-preview">
+        "Losing my job pushed me into deep stress, but I found my way back...
+        "
+      </p>
+      <span class="read-more" onclick="openPopup(1)">Read Full Story</span>
+    </div>
+
+    <div class="story-card">
+      <p class="story-preview">
+        "For years, I battled self-doubt and loneliness, but then I met the
+        right people... "
+      </p>
+      <span class="read-more" onclick="openPopup(2)">Read Full Story</span>
+    </div>
+
+    <div class="story-card">
+      <p class="story-preview">
+        "I once had severe social anxiety, avoiding all social gatherings... "
+      </p>
+      <span class="read-more" onclick="openPopup(3)">Read Full Story</span>
+    </div>
+
+    <div class="story-card">
+      <p class="story-preview">
+        "Grief took over my life, and I felt like I could never move on... "
+      </p>
+      <span class="read-more" onclick="openPopup(4)">Read Full Story</span>
+    </div>
+
+    <div class="story-card">
+      <p class="story-preview">
+        "Mark once believed he would never escape his depression. But after..."
+      </p>
+      <span class="read-more" onclick="openPopup(5)">Read Full Story</span>
+    </div>
+
+    <div class="story-card">
+      <p class="story-preview">
+        "Priya was drowning in work stress, feeling exhausted and lost. By setting boundaries... "
+      </p>
+      <span class="read-more" onclick="openPopup(6)">Read Full Story</span>
+    </div>
+
+    <div class="story-card">
+      <p class="story-preview">
+        "Ryan feared social interactions for most of his life. Through small steps and... "
+      </p>
+      <span class="read-more" onclick="openPopup(7)">Read Full Story</span>
+    </div>
+
+    <div class="story-card">
+      <p class="story-preview">
+        "After experiencing a painful past, Sofia found comfort in... "
+      </p>
+      <span class="read-more" onclick="openPopup(8)">Read Full Story</span>
+    </div>
+
+    <div class="story-card">
+      <p class="story-preview">
+        "For years, James feared leaving his home due to panic attacks. With... "
+      </p>
+      <span class="read-more" onclick="openPopup(9)">Read Full Story</span>
+    </div>
+
+  </div>
+
+  <!-- Pop-up Modal -->
+  <div class="popup-overlay" id="popupOverlay">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup()">&times;</span>
+      <p id="fullStory"></p>
+    </div>
+  </div>
+
+  <script src="SuccStory.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifeLine Connect</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="animations.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+</head>
+
+<body>
+  <header>
+    <div class="hamburger" onclick="toggleMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
+    <nav id="navMenu">
+      <a href="index.html" onclick="closeMenu()">Home</a>
+      <a href="assets/about.html" onclick="closeMenu()">About</a>
+      <a href="assets/features.html" onclick="closeMenu()">Services</a>
+      <a href="assets/contact.html" onclick="closeMenu()">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Logo section -->
+  <div class="logo-container">
+    <img src="assets/logo.png" alt="LifeLine Connect Logo" class="logo" />
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero fade-in">
+    <div id="branding">
+      <h1>LifeLine Connect</h1>
+    </div>
+  </div>
+
+  <footer>&copy; 2025 LifeLine Connect. All rights reserved.</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
