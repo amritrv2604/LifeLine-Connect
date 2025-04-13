@@ -76,7 +76,7 @@ Distributed under MIT License. See LICENSE for more information.
 ## 💖 Contributors
 <table> 
   <tr> 
-    <td align="center"> <a href="http://github.com/amritrv2604"> <img src="assets/contributors/AmritRV.png" width="100px;" alt="Amrit Raj"/> <br /> <sub style="color: #fff; text-decoration: none;"><b>Amrit Raj</b></sub> </a> </td>
+    <td align="center"> <a href="http://github.com/amritrv2604"> <img src="assets/contributors/AmritRV.png" width="100px;" alt="Amrit Raj"/> <br /> <sub><b style="color: white; text-decoration: none;">Amrit Raj</b></sub> </a> </td>
     <td align="center"> <a href="https://github.com/ravibhushan293"> <img src="assets/contributors/ContributorRavi.jpg" width="100px;" alt="Ravi Bhushan"/> <br /> <sub><b>Ravi Bhushan</b></sub> </a</td>     <td align="center"> <a href="https://github.com/Aditya9354"> <img src="assets/contributors/ContributorAditya.jpg" width="100px;" alt="Aditya Prakash"/> <br /> <sub><b>Aditya Prakash</b></sub> </a</td>     <td align="center"> <a href="https://github.com/mozammilalam12"> <img src="assets/contributors/ContributorMozammil.jpg" width="100px;" alt="Mozammil Alam"/> <br /> <sub><b>Mozammil Alam</b></sub> </a></td>   
   </tr>
 </table>
