@@ -74,40 +74,9 @@ Distributed under MIT License. See LICENSE for more information.
 
 
 ## 💖 Contributors
-<!-- <table> 
+<table> 
   <tr> 
-    <td align="center"> <a href="http://github.com/amritrv2604"> <img src="assets/contributors/AmritRV.png" width="100px;" alt="Amrit Raj"/> <br /> <sub><b style="text-decoration:none;">Amrit Raj</b></sub> </a> </td>
+    <td align="center"> <a href="https://github.com/amritrv2604"> <img src="assets/contributors/AmritRV.png" width="100px;" alt="Amrit Raj"/> <br /> <sub><b>Amrit Raj</b></sub> </a> </td>
     <td align="center"> <a href="https://github.com/ravibhushan293"> <img src="assets/contributors/ContributorRavi.jpg" width="100px;" alt="Ravi Bhushan"/> <br /> <sub><b>Ravi Bhushan</b></sub> </a</td>     <td align="center"> <a href="https://github.com/Aditya9354"> <img src="assets/contributors/ContributorAditya.jpg" width="100px;" alt="Aditya Prakash"/> <br /> <sub><b>Aditya Prakash</b></sub> </a</td>     <td align="center"> <a href="https://github.com/mozammilalam12"> <img src="assets/contributors/ContributorMozammil.jpg" width="100px;" alt="Mozammil Alam"/> <br /> <sub><b>Mozammil Alam</b></sub> </a></td>   
   </tr>
-</table> -->
-
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; color: white;">
-  <div align="center">
-    <a href="https://github.com/amritrv2604" style="text-decoration: none; color: white;">
-      <img src="assets/contributors/AmritRV.png" width="100px;" alt="Your Name"/>
-      <br />
-      <sub><b>Amrit Raj</b></sub>
-    </a>
-  </div>
-  <div align="center">
-    <a href="https://github.com/teammember1" style="text-decoration: none; color: white;">
-      <img src="https://avatars.githubusercontent.com/teammember1" width="100px;" alt="Team Member 1"/>
-      <br />
-      <sub><b>Team Member 1</b></sub>
-    </a>
-  </div>
-  <div align="center">
-    <a href="https://github.com/teammember2" style="text-decoration: none; color: white;">
-      <img src="https://avatars.githubusercontent.com/teammember2" width="100px;" alt="Team Member 2"/>
-      <br />
-      <sub><b>Team Member 2</b></sub>
-    </a>
-  </div>
-  <div align="center">
-    <a href="https://github.com/teammember3" style="text-decoration: none; color: white;">
-      <img src="https://avatars.githubusercontent.com/teammember3" width="100px;" alt="Team Member 3"/>
-      <br />
-      <sub><b>Team Member 3</b></sub>
-    </a>
-  </div>
-</div>
+</table>
