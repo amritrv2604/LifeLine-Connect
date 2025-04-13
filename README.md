@@ -12,36 +12,36 @@ A mental health support platform providing immediate assistance through AI chatb
 
 ## ✨ Features
 
-### 🗣️ Mental Health Support Chatbot
+### Mental Health Support Chatbot
 - 24/7 AI-powered emotional support
 - Confidential conversations
 - Crisis detection & redirection
 
-### 😊 Mood Mate
+### Mood Mate
 - Quick emotional check-ins
 - Visual mood tracking
 - Personalized coping suggestions
 
-### 🧘 MindEase
+### MindEase
 - Guided motivation tips
 - Curated relaxation techniques
 - Soothing visual therapy
 
-### 👥 TogetherWe (Peer Support)
+### TogetherWe (Peer Support)
 - Anonymous peer matching
 - Safe community forums
 - Verified mental health advocates
 
-### 👥 Success Stories
+### Success Stories
 - 
 
-### 🆘 Emergency SOS
+### Emergency SOS
 - One-tap crisis helplines
 - Location-based emergency contacts
 - Quick-access safety plans
 
 
-## Deployment
+## 🗣️Deployment
 
 To deploy this project in your local system, run:
 ```bash
