@@ -33,7 +33,9 @@ A mental health support platform providing immediate assistance through AI chatb
 - Verified mental health advocates
 
 ### Success Stories
-- 
+- Inspiring recovery journeys
+- User-shared coping strategies
+- Hope-building testimonials
 
 ### Emergency SOS
 - One-tap crisis helplines
