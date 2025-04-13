@@ -7,7 +7,8 @@
 
 A mental health support platform providing immediate assistance through AI chatbots, mood tracking, peer support, and emergency resources.
 
-![LifeLine Connect Screenshot](assets/LC_services.png)
+![LifeLine Connect Screenshot1](assets/LC_homescreen.png)
+![LifeLine Connect Screenshot2](assets/LC_services.png)
 
 ## ✨ Features
 
@@ -22,7 +23,7 @@ A mental health support platform providing immediate assistance through AI chatb
 - Personalized coping suggestions
 
 ### 🧘 MindEase
-- Guided breathing exercises
+- Guided motivation tips
 - Curated relaxation techniques
 - Soothing visual therapy
 
@@ -30,6 +31,9 @@ A mental health support platform providing immediate assistance through AI chatb
 - Anonymous peer matching
 - Safe community forums
 - Verified mental health advocates
+
+### 👥 Success Stories
+- 
 
 ### 🆘 Emergency SOS
 - One-tap crisis helplines
@@ -52,3 +56,20 @@ gh repo clone amritrv2604/LifeLine-Connect
 
 ## 🌐 Live Demo
 Try LifeLine Connect Now https://lifeline-connect.vercel.app/
+
+## 🤝 How to Contribute
+- Fork the project
+- Create your branch (git checkout -b feature/AmazingFeature)
+- Commit changes (git commit -m 'Add amazing feature')
+- Push (git push origin feature/AmazingFeature)
+- Open a Pull Request
+
+## 📜 License
+Distributed under MIT License. See LICENSE for more information.
+
+## 💖 Contributors
+<table> 
+  <tr> 
+    <td align="center"> <a href="http://github.com/amritrv2604"> <img src="https://avatars.githubusercontent.com/yourprofile" width="100px;" alt="Amrit Raj"/> <br /> <sub><b>Amrit Raj</b></sub> </a> </td>
+    <td align="center"> <a href="https://github.com/teammember1"> <img src="https://avatars.githubusercontent.com/teammember1" width="100px;" alt="Team Member 1"/> <br /> <sub><b>Team Member 1</b></sub> </a></td>     <td align="center"> <a href="https://github.com/teammember2"> <img src="https://avatars.githubusercontent.com/teammember2" width="100px;" alt="Team Member 2"/> <br /> <sub><b>Team Member 2</b></sub> </a></td>     <td align="center"> <a href="https://github.com/teammember3"> <img src="https://avatars.githubusercontent.com/teammember3" width="100px;" alt="Team Member 3"/> <br /> <sub><b>Team Member 3</b></sub> </a></td>   </tr>
+</table>
