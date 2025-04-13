@@ -1,38 +1,54 @@
-## LifeLine Connect
+# LifeLine Connect 🌟
 
-- A secure and convenient random password generator built using HTML, CSS, and JavaScript.
-- It provides users with strong, unique passwords that are difficult to guess or crack.
-- The tool is designed to be easy to use and offers customizable options for password length and complexity.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
+A mental health support platform providing immediate assistance through AI chatbots, mood tracking, peer support, and emergency resources.
 
-## Features
+![LifeLine Connect Screenshot](assets/LC_services.png)
 
-- Creates strong, randomly generated passwords.
-- Includes various character types (uppercase, lowercase, numbers, symbols) to enhance security.
-- A simple and intuitive design for effortless password creation.
+## ✨ Features
 
+### 🗣️ Mental Health Support Chatbot
+- 24/7 AI-powered emotional support
+- Confidential conversations
+- Crisis detection & redirection
 
-## Screenshots
+### 😊 Mood Mate
+- Quick emotional check-ins
+- Visual mood tracking
+- Personalized coping suggestions
 
-![Password generator project](https://github.com/amritrv2604/random-password-generator/blob/main/images/projectImg.png?raw=true)
-- This is what the interface looks like.
+### 🧘 MindEase
+- Guided breathing exercises
+- Curated relaxation techniques
+- Soothing visual therapy
 
+### 👥 TogetherWe (Peer Support)
+- Anonymous peer matching
+- Safe community forums
+- Verified mental health advocates
+
+### 🆘 Emergency SOS
+- One-tap crisis helplines
+- Location-based emergency contacts
+- Quick-access safety plans
 
 ## Deployment
 
 To deploy this project in your local system, run:
 ```bash
-gh repo clone amritrv2604/random-password-generator
+gh repo clone amritrv2604/LifeLine-Connect
 ```
 
+## 🛠️ Tech Stack
 
-## Technologies Used
+- Frontend: HTML5, CSS3, JavaScript
+- Animations: GSAP, Three.js
+- Form Handling: FormSubmit.co
+- Responsive Design: Mobile-first CSS
 
-- HTML: Defines the structure of the password generator.
-- CSS: Styles the appearance of the tool.
-- JavaScript: Provides the logic for password generation, customization, and copying.
-
-
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request.
+## 🌐 Live Demo
+Try LifeLine Connect Now https://lifeline-connect.vercel.app/
