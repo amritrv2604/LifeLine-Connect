@@ -125,10 +125,6 @@ body {
   }
 }
 
-/* .close-icon:hover {
-  animation: close-icon-animation 0.5s ease-in-out;
-} */
-
 /* Tablet view */
 @media (max-width: 768px) {
   .features {

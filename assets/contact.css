@@ -201,37 +201,27 @@ footer {
 @media (max-width: 768px) {
   .contact-container {
     width: 85%;
-    /* Better width for mobile */
     margin-top: 25%;
-    /* Space for close icon */
     padding: 20px 15px;
-    /* Better padding */
     box-sizing: border-box;
-    /* Prevents overflow */
   }
 
   .close-icon {
     top: 15px;
-    /* Adjusted position */
     right: 15px;
     font-size: 1.9rem;
-    /* Slightly smaller */
     background: rgba(0, 0, 0, 0.5);
-    /* Better visibility */
   }
 
   /* Form elements */
   input,
   textarea {
     width: 100% !important;
-    /* Full width */
     box-sizing: border-box;
-    /* Includes padding in width */
   }
 
   button {
     width: 50% !important;
-    /* Full width button */
     margin-top: 10px;
   }
 }
@@ -239,15 +229,12 @@ footer {
 /* Mobile Phones (480px and below) */
 @media (max-width: 480px) {
   .contact-container {
-    /* padding: 15px; */
     width: 90%;
-    /* max-width: 100%; */
     margin-top: 30%;
   }
 
   h2 {
     font-size: 1.5rem;
-    /* Smaller heading */
   }
 
   .close-icon {

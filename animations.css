@@ -82,6 +82,5 @@
 @media (max-width: 768px) {
     .slide-in-left {
         transform: translateX(-20px);
-        /* Less movement on mobile */
     }
 }

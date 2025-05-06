@@ -42,7 +42,6 @@ header nav a:hover {
   margin-top: 200px;
   margin-bottom: -60px;
   perspective: 1000px;
-  /* For 3D effect */
 }
 
 .logo {
@@ -239,7 +238,7 @@ footer {
 
 }
 
-/* Optional: For ultra small screens */
+/* For ultra small screens */
 @media (max-width: 480px) {
   nav {
     display: none;
